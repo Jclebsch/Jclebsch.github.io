@@ -1,0 +1,108 @@
+
+
+*{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+body{
+    background: white;
+}
+
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+}
+
+#topNav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#profile{
+    border-radius: 50%;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+    padding: 5px;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 2.0rem;
+        
+}
+
+.social-icons a{
+    color: rgb(150, 150, 150) !important;
+}
+
+
+#inst:hover{
+    color:  #d6249f;
+}
+
+#mail:hover{
+    color: #ff261b;
+}
+
+#git:hover{
+    color: #171515;
+}
+
+#link:hover{
+    color: #0e76a8;
+}
+
+.row div{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 10px;
+    
+}
+
+#card:hover{
+    -moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px 0px rgba(99, 96, 96, 0.541);
+    
+}
+
+#skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+h4{
+    padding-top: 5px;
+}
+h5{
+    padding: 5px;
+}
