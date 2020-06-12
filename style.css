@@ -20,13 +20,7 @@ body{
     padding-top: 15px;
 }
 
-#topNav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;  
- 
-}
+
 
 #profile{
     border-radius: 50%;
@@ -85,6 +79,7 @@ body{
     align-items: center;
     align-content: center;
     padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 
@@ -96,16 +91,12 @@ body{
     
 }
 
-#skill{
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
+#skills > div {
+
+margin: 20px;
+
 }
 
-#BtC3{
-    background-color: #56847E;
-    color: white;
-}
 
 h3{
     font-weight: bold;
@@ -125,20 +116,11 @@ h5{
 }
 
 
-
-#titleColor1{
-    color:  #56847E;
-}
-
 p{
     color: rgb(71, 70, 70);
 }
 
-#text{
-    padding-top: 25px;
-    padding-right: 300px;
-    padding-left: 300px;
-}
+
 
 #text2{
     padding-bottom: 20px ;
@@ -162,3 +144,52 @@ p{
 #cards{
     margin: 100px;
 }
+
+#text{
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#topNav > div {
+    margin: 10px;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#btn1{
+    margin: 3px;
+}
+
+#btn2{
+    margin: 3px;
+    background-color: #56847E;
+    color: white;
+}
+
+
+@media (min-width: 992px) { 
+
+    #text{
+        padding-top: 25px;
+        padding-right: 300px;
+        padding-left: 300px;
+    }   
+
+    #topNav{
+        display: flex; 
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;  
+     
+    }
+
+    #skills > div {
+        padding-top: 25px;
+        padding-right: 300px;
+        padding-left: 300px;
+        
+        }
+
+ }
